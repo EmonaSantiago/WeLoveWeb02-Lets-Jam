@@ -1,7 +1,13 @@
 <script>
-  import Navigation from "../components/navigation.svelte";
   import Header from "../components/header.svelte";
+  import Sliders from "../components/sliders.svelte";
 </script>
 
-<Navigation />
 <Header />
+<Sliders />
+
+<style>
+  * {
+    font-family: Open Sans, sans-serif;
+  }
+</style>
