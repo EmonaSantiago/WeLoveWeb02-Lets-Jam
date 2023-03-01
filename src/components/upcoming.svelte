@@ -1,5 +1,5 @@
 <div class="main">
-  <h1>Responsive Card Grid Layout</h1>
+  <h1>Upcoming sessions ----------</h1>
   <ul class="cards">
     <li class="cards_item">
       <div class="card">
