@@ -1,11 +1,11 @@
 <head>
-  <title>My awesome website</title>
+  <title>WE LOVE WEB</title>
 </head>
 
 <body>
   <section class="hero">
     <div class="hero-inner">
-      <h1>My awesome website</h1>
+      <h1>WE LOVE WEB</h1>
       <h2>Look at this website and bask in its amazing glory!</h2>
       <a href="https://example.com/" class="btn">Go ahead...</a>
     </div>
@@ -32,7 +32,7 @@
 
     /* Background styles */
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-      url("https://codetheweb.blog/assets/img/posts/full-image-hero/image.jpg");
+      url("src/assets/MicrosoftTeams-image (1).png");
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
