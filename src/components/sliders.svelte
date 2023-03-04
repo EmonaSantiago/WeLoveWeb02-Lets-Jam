@@ -1,4 +1,4 @@
-<h2>This Week ----------</h2>
+<h2>This week sessions</h2>
 
 <section class="slider">
   <button class="slider__control prev"
@@ -9,45 +9,66 @@
   >
   <div class="slider__container" data-multislide="true" data-step="4">
     <div class="slider__item">
+      <h3>DATUM</h3>
       <img src="https://picsum.photos/id/521/700/700" alt="" width="100%" />
+      <h3>HEY DIT IS EEN CARD</h3>
+      <p>Een korte beschrijving van het kaart</p>
+      <button class="btn card_btn">meer info...</button>
     </div>
     <div class="slider__item">
-      <img src="https://picsum.photos/id/522/700/700" alt="" width="100%" />
+      <h3>DATUM</h3>
+      <img src="https://picsum.photos/id/521/700/700" alt="" width="100%" />
+      <h3>HEY DIT IS EEN CARD</h3>
+      <p>Een korte beschrijving van het kaart</p>
+      <button class="btn card_btn">meer info...</button>
     </div>
     <div class="slider__item">
-      <img src="https://picsum.photos/id/523/700/700" alt="" width="100%" />
+      <h3>DATUM</h3>
+      <img src="https://picsum.photos/id/521/700/700" alt="" width="100%" />
+      <h3>HEY DIT IS EEN CARD</h3>
+      <p>Een korte beschrijving van het kaart</p>
+      <button class="btn card_btn">meer info...</button>
     </div>
     <div class="slider__item">
-      <img src="https://picsum.photos/id/524/700/700" alt="" width="100%" />
+      <h3>DATUM</h3>
+      <img src="https://picsum.photos/id/521/700/700" alt="" width="100%" />
+      <h3>HEY DIT IS EEN CARD</h3>
+      <p>Een korte beschrijving van het kaart</p>
+      <button class="btn card_btn">meer info...</button>
     </div>
     <div class="slider__item">
-      <img src="https://picsum.photos/id/525/700/700" alt="" width="100%" />
+      <h3>DATUM</h3>
+      <img src="https://picsum.photos/id/521/700/700" alt="" width="100%" />
+      <h3>HEY DIT IS EEN CARD</h3>
+      <p>Een korte beschrijving van het kaart</p>
+      <button class="btn card_btn">meer info...</button>
     </div>
     <div class="slider__item">
-      <img src="https://picsum.photos/id/526/700/700" alt="" width="100%" />
+      <h3>DATUM</h3>
+      <img src="https://picsum.photos/id/521/700/700" alt="" width="100%" />
+      <h3>HEY DIT IS EEN CARD</h3>
+      <p>Een korte beschrijving van het kaart</p>
+      <button class="btn card_btn">meer info...</button>
     </div>
-    <div class="slider__item">
-      <img src="https://picsum.photos/id/527/700/700" alt="" width="100%" />
-    </div>
-    <div class="slider__item">
-      <img src="https://picsum.photos/id/528/700/700" alt="" width="100%" />
-    </div>
-    <div class="slider__item">
-      <img src="https://picsum.photos/id/529/700/700" alt="" width="100%" />
-    </div>
-    <div class="slider__item">
-      <img src="https://picsum.photos/id/530/700/700" alt="" width="100%" />
-    </div>
+
+    <script src="src/components/carousel.js"></script>
   </div>
-  <script src="src/components/carousel.js"></script>
 </section>
 
 <style>
-  h2 {
+  p,
+  h3 {
+    text-align: center;
     color: #a675f5;
     margin-bottom: 1em;
-    margin-left: 2em;
     margin-top: 1em;
+  }
+
+  h2 {
+    color: #a675f5;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 600;
   }
 
   body {
@@ -86,6 +107,16 @@
     padding: 16px 8px;
     flex: 0 0 auto;
     width: calc(100% / 5);
+    /* border: solid #a675f5;
+    border-width: 1px; */
+    border-radius: 0.5rem;
+  }
+
+  img {
+    height: auto;
+    max-width: 100%;
+    vertical-align: middle;
+    border-radius: 0.5rem;
   }
 
   .slider__container[data-step="4"] .slider__item {
@@ -165,7 +196,22 @@
     user-select: none;
   }
 
-  img {
-    border-radius: 2em;
+  .btn {
+    color: #ffffff;
+    padding: 0.8rem;
+    font-size: 14px;
+    text-transform: uppercase;
+    border-radius: 0.5rem;
+    font-weight: 400;
+    display: block;
+    width: 100%;
+    cursor: pointer;
+    border: 1px solid #050542;
+    background: transparent;
+  }
+
+  .btn:hover {
+    background-color: #66e5bf;
+    color: #050542;
   }
 </style>

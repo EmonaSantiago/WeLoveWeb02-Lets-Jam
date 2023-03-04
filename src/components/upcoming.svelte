@@ -198,10 +198,4 @@
     margin-bottom: 1.25rem;
     font-weight: 400;
   }
-  .made_by {
-    font-weight: 400;
-    font-size: 13px;
-    margin-top: 35px;
-    text-align: center;
-  }
 </style>
