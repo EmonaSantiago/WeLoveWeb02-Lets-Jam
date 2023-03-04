@@ -28,12 +28,12 @@
     /* font-size: 1.2rem; */
   }
 
-  body {
+  /* body {
     margin: 10px;
     background-color: #050542;
-    /* background-image: url("https://i.guim.co.uk/img/media/25735967b79b684a313445f010fb20af48dde538/0_80_2600_1560/master/2600.jpg?width=700&quality=85&auto=format&fit=max&s=c1d82a0d3b8b2e9ed5d75c2769fae1ca");
-    background-repeat: repeat-y; */
-  }
+    background-image: url("https://i.guim.co.uk/img/media/25735967b79b684a313445f010fb20af48dde538/0_80_2600_1560/master/2600.jpg?width=700&quality=85&auto=format&fit=max&s=c1d82a0d3b8b2e9ed5d75c2769fae1ca");
+    background-repeat: repeat-y;
+  } */
 
   h1 {
     text-align: center;
