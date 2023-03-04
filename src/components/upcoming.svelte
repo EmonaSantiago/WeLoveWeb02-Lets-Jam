@@ -1,5 +1,5 @@
 <div class="main">
-  <h1>Upcoming sessions ----------</h1>
+  <h2>Upcoming sessions</h2>
   <ul class="cards">
     <li class="cards_item">
       <div class="card">
@@ -11,7 +11,7 @@
           <p class="card_text">
             Demo of pixel perfect pure CSS simple responsive card grid layout
           </p>
-          <button class="btn card_btn">Read More</button>
+          <button class="btn card_btn">meer info...</button>
         </div>
       </div>
     </li>
@@ -25,7 +25,7 @@
           <p class="card_text">
             Demo of pixel perfect pure CSS simple responsive card grid layout
           </p>
-          <button class="btn card_btn">Read More</button>
+          <button class="btn card_btn">meer info...</button>
         </div>
       </div>
     </li>
@@ -39,7 +39,7 @@
           <p class="card_text">
             Demo of pixel perfect pure CSS simple responsive card grid layout
           </p>
-          <button class="btn card_btn">Read More</button>
+          <button class="btn card_btn">meer info...</button>
         </div>
       </div>
     </li>
@@ -53,7 +53,7 @@
           <p class="card_text">
             Demo of pixel perfect pure CSS simple responsive card grid layout
           </p>
-          <button class="btn card_btn">Read More</button>
+          <button class="btn card_btn">meer info...</button>
         </div>
       </div>
     </li>
@@ -67,7 +67,7 @@
           <p class="card_text">
             Demo of pixel perfect pure CSS simple responsive card grid layout
           </p>
-          <button class="btn card_btn">Read More</button>
+          <button class="btn card_btn">meer info...</button>
         </div>
       </div>
     </li>
@@ -81,14 +81,12 @@
           <p class="card_text">
             Demo of pixel perfect pure CSS simple responsive card grid layout
           </p>
-          <button class="btn card_btn">Read More</button>
+          <button class="btn card_btn">meer info...</button>
         </div>
       </div>
     </li>
   </ul>
 </div>
-
-<h3 class="made_by">Meer info...</h3>
 
 <style>
   /* Design */
@@ -98,28 +96,11 @@
     box-sizing: border-box;
   }
 
-  html {
-    background-color: #ecf9ff;
-  }
-
-  /* body {
-    color: white;
-    font-style: normal;
-    font-weight: 400;
-    letter-spacing: 0;
-    padding: 1rem;
-  } */
-
-  .main {
-    max-width: 1200px;
-    margin: 0 auto;
-  }
-
-  h1 {
-    color: white;
-    font-size: 24px;
-    font-weight: 400;
+  h2 {
+    color: #a675f5;
     text-align: center;
+    font-size: 2rem;
+    font-weight: 600;
   }
 
   h3 {
@@ -137,12 +118,12 @@
     padding: 0.8rem;
     font-size: 14px;
     text-transform: uppercase;
-    border-radius: 4px;
+    border-radius: 0.5rem;
     font-weight: 400;
     display: block;
     width: 100%;
     cursor: pointer;
-    border: 1px solid rgba(255, 255, 255, 0.2);
+    border: 1px solid #050542;
     background: transparent;
   }
 
@@ -177,9 +158,17 @@
   }
 
   .card {
-    background-color: white;
-    border-radius: 2em;
-    box-shadow: 0 20px 40px -14px rgba(0, 0, 0, 0.25);
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    color: #a675f5;
+    margin-bottom: 2rem;
+    padding: 2rem;
+    border-radius: 0.5rem;
+    border-width: 1px;
+    border-style: solid;
     display: flex;
     flex-direction: column;
     overflow: hidden;
@@ -187,14 +176,17 @@
 
   .card_content {
     padding: 1rem;
-    background: linear-gradient(to bottom left, #a675f5 40%, #66e5bf 100%);
+    /* background: linear-gradient(to bottom left, #a675f5 40%, #66e5bf 100%); */
+    background-color: #a675f5;
+    border-radius: 0.5rem;
+    border-width: 1px;
+    border-style: solid;
   }
 
   .card_title {
-    color: #ffffff;
+    color: #050542;
     font-size: 1.1rem;
     font-weight: 700;
-    letter-spacing: 1px;
     text-transform: capitalize;
     margin: 0px;
   }
