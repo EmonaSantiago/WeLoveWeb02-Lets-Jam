@@ -15,10 +15,11 @@
 />
 <body>
   <div class="topnav" id="myTopnav">
-    <a href="#home" class="active">Home</a>
-    <a href="#news">News</a>
-    <a href="#contact">Contact</a>
-    <a href="#about">About</a>
+    <a href="#home" class="active">🤍</a>
+    <a href="#We love web sessions">We love web sessions</a>
+    <a href="#Upcoming sessions">Upcoming sessions</a>
+    <a href="#Links">Links</a>
+    <a href="#Aanmelden">Aanmelden</a>
     <a href="javascript:void(0);" class="icon" onclick="myFunction()">
       <i class="fa fa-bars" />
     </a>

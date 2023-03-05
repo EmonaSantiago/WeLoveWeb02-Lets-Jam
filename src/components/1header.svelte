@@ -6,8 +6,12 @@
   <section class="hero">
     <div class="hero-inner">
       <h1>WE LOVE WEB</h1>
-      <h2>Look at this website and bask in its amazing glory!</h2>
-      <a href="https://example.com/" class="btn">Go ahead...</a>
+      <h2>Kom een sessie volgen</h2>
+      <h3>
+        waarin een designer/developer uit de praktijk iets komt vertellen en
+        laten zien!
+      </h3>
+      <a href="https://example.com/" class="btn">Bekijk hier</a>
     </div>
   </section>
 </body>
