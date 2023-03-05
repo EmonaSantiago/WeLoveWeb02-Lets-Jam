@@ -1,5 +1,6 @@
 <script>
   // import Header from "../components/header.svelte";
+  import Navigation from "../components/navigation.svelte";
   import Header from "../components/1header.svelte";
   import Sliders from "../components/sliders.svelte";
   import Upcoming from "../components/upcoming.svelte";
@@ -8,6 +9,7 @@
 </script>
 
 <!-- <Header /> -->
+<Navigation />
 <Header />
 <Sliders />
 <Upcoming />
