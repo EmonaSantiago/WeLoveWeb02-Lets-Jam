@@ -31,6 +31,8 @@
   h2 {
     color: #050542;
     text-align: center;
+    font-size: 2rem;
+    font-weight: 600;
   }
   input[type="text"],
   select {

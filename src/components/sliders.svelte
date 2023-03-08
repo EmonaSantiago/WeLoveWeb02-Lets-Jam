@@ -69,6 +69,7 @@
     text-align: center;
     font-size: 2rem;
     font-weight: 600;
+    margin: 2em;
   }
 
   body {

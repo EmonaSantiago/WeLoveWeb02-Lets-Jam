@@ -21,6 +21,13 @@
 </section>
 
 <style>
+  h2 {
+    color: #a675f5;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 600;
+  }
+
   #footer {
     margin: 0;
     padding: 0;
@@ -55,5 +62,7 @@
 
   a {
     color: #a675f5;
+    border: solid 1px #a675f5;
+    border-width: 0cap;
   }
 </style>

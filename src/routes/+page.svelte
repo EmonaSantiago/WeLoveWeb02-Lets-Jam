@@ -111,11 +111,9 @@
   h2 {
     color: #a675f5;
     text-align: center;
-    font-size: 26px;
-    font-weight: 700;
+    font-size: 2rem;
+    font-weight: 600;
     margin: 2em;
-    white-space: nowrap;
-    padding-bottom: 13px;
   }
 
   body {
