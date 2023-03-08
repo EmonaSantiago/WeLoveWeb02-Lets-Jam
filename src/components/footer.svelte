@@ -62,7 +62,7 @@
 
   a {
     color: #a675f5;
-    border: solid 1px #a675f5;
+
     border-width: 0cap;
   }
 </style>

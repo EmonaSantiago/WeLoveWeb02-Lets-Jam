@@ -11,12 +11,17 @@
         waarin een designer/developer uit de praktijk iets komt vertellen en
         laten zien!
       </h3>
-      <a href="#section02"><span />Scroll</a>
+      <section id="button">
+        <a href="#section02"><span />Scroll</a>
+      </section>
     </div>
   </section>
 </body>
 
 <style>
+  #button a {
+    color: pink a;
+  }
   body {
     margin: 0;
   }

@@ -7,12 +7,13 @@
     <li class="cards_item">
       <div class="card">
         <div class="card_image">
-          <img src="https://picsum.photos/500/300/?image=10" />
+          <img src="src/assets/Schermafbeelding 2023-03-08 om 12.52.00.png" />
         </div>
         <div class="card_content">
-          <h2 class="card_title">Card Grid Layout</h2>
+          <h2 class="card_title">Talk with the Founders!</h2>
           <p class="card_text">
-            Demo of pixel perfect pure CSS simple responsive card grid layout
+            De Founders van FDND delen de leukste verhalen en hun ervaring op de
+            opleiding!
           </p>
           <button class="btn card_btn">meer info...</button>
         </div>
@@ -21,12 +22,13 @@
     <li class="cards_item">
       <div class="card">
         <div class="card_image">
-          <img src="https://picsum.photos/500/300/?image=5" />
+          <img src="src/assets/Schermafbeelding 2023-03-08 om 12.52.00.png" />
         </div>
         <div class="card_content">
-          <h2 class="card_title">Card Grid Layout</h2>
+          <h2 class="card_title">Talk with the Founders!</h2>
           <p class="card_text">
-            Demo of pixel perfect pure CSS simple responsive card grid layout
+            De Founders van FDND delen de leukste verhalen en hun ervaring op de
+            opleiding!
           </p>
           <button class="btn card_btn">meer info...</button>
         </div>
@@ -35,12 +37,13 @@
     <li class="cards_item">
       <div class="card">
         <div class="card_image">
-          <img src="https://picsum.photos/500/300/?image=11" />
+          <img src="src/assets/Schermafbeelding 2023-03-08 om 12.52.00.png" />
         </div>
         <div class="card_content">
-          <h2 class="card_title">Card Grid Layout</h2>
+          <h2 class="card_title">Talk with the Founders!</h2>
           <p class="card_text">
-            Demo of pixel perfect pure CSS simple responsive card grid layout
+            De Founders van FDND delen de leukste verhalen en hun ervaring op de
+            opleiding!
           </p>
           <button class="btn card_btn">meer info...</button>
         </div>
@@ -49,12 +52,13 @@
     <li class="cards_item">
       <div class="card">
         <div class="card_image">
-          <img src="https://picsum.photos/500/300/?image=14" />
+          <img src="src/assets/Schermafbeelding 2023-03-08 om 12.52.00.png" />
         </div>
         <div class="card_content">
-          <h2 class="card_title">Card Grid Layout</h2>
+          <h2 class="card_title">Talk with the Founders!</h2>
           <p class="card_text">
-            Demo of pixel perfect pure CSS simple responsive card grid layout
+            De Founders van FDND delen de leukste verhalen en hun ervaring op de
+            opleiding!
           </p>
           <button class="btn card_btn">meer info...</button>
         </div>
@@ -63,12 +67,13 @@
     <li class="cards_item">
       <div class="card">
         <div class="card_image">
-          <img src="https://picsum.photos/500/300/?image=17" />
+          <img src="src/assets/Schermafbeelding 2023-03-08 om 12.52.00.png" />
         </div>
         <div class="card_content">
-          <h2 class="card_title">Card Grid Layout</h2>
+          <h2 class="card_title">Talk with the Founders!</h2>
           <p class="card_text">
-            Demo of pixel perfect pure CSS simple responsive card grid layout
+            De Founders van FDND delen de leukste verhalen en hun ervaring op de
+            opleiding!
           </p>
           <button class="btn card_btn">meer info...</button>
         </div>
@@ -77,12 +82,13 @@
     <li class="cards_item">
       <div class="card">
         <div class="card_image">
-          <img src="https://picsum.photos/500/300/?image=2" />
+          <img src="src/assets/Schermafbeelding 2023-03-08 om 12.52.00.png" />
         </div>
         <div class="card_content">
-          <h2 class="card_title">Card Grid Layout</h2>
+          <h2 class="card_title">Talk with the Founders!</h2>
           <p class="card_text">
-            Demo of pixel perfect pure CSS simple responsive card grid layout
+            De Founders van FDND delen de leukste verhalen en hun ervaring op de
+            opleiding!
           </p>
           <button class="btn card_btn">meer info...</button>
         </div>
@@ -93,6 +99,7 @@
 
 <style>
   /* Design */
+
   *,
   *::before,
   *::after {
@@ -147,6 +154,7 @@
   .cards_item {
     display: flex;
     padding: 1rem;
+    text-align: center;
   }
 
   @media (min-width: 40rem) {
