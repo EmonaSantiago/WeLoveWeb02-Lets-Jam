@@ -11,7 +11,7 @@
         waarin een designer/developer uit de praktijk iets komt vertellen en
         laten zien!
       </h3>
-      <a href="https://example.com/" class="btn">Bekijk hier</a>
+      <a href="#section02"><span />Scroll</a>
     </div>
   </section>
 </body>

@@ -14,6 +14,7 @@
   href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
 />
 <body>
+  <section id="section06" class="demo" />
   <div class="topnav" id="myTopnav">
     <a href="#home" class="active">🤍</a>
     <a href="#We love web sessions">We love web sessions</a>

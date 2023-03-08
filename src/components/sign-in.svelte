@@ -1,3 +1,7 @@
+<section id="section04" class="demo">
+  <a href="#section05"><span />Scroll</a>
+</section>
+
 <div>
   <h2>Meld je hier aan!</h2>
   <form action="/action_page.php">

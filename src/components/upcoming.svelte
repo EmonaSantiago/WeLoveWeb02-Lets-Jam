@@ -1,3 +1,6 @@
+<section id="section03" class="demo">
+  <a href="#section04"><span />Scroll</a>
+</section>
 <div class="main">
   <h2>Upcoming sessions</h2>
   <ul class="cards">
@@ -101,6 +104,7 @@
     text-align: center;
     font-size: 2rem;
     font-weight: 600;
+    margin: 2em;
   }
 
   h3 {

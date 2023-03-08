@@ -13,6 +13,9 @@
 
 <Navigation />
 <Header />
+<section id="section02" class="demo">
+  <a href="#section03"><span />Scroll</a>
+</section>
 <!-- <Sliders /> -->
 <h2>This week sessions</h2>
 
@@ -94,6 +97,9 @@
   }
 </style> -->
 <style>
+  html {
+    scroll-behavior: smooth;
+  }
   p,
   h3 {
     text-align: center;
